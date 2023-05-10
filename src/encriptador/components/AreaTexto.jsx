@@ -27,6 +27,7 @@ export const AreaTexto = ({ onEncriptarTexto, onDesencriptarTexto }) => {
           cols="30"
           rows="10"
           placeholder="Ingrese el texto aquí"
+          autoFocus
           value={encriptador.texto}
           onChange={onInputChange}
         ></textarea>
