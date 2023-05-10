@@ -1,0 +1,27 @@
+/**** MensajeDesencriptado.jsx ****/
+
+.area-desencriptada {
+    align-content: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.texto-desencriptado {
+    flex: 0 1 auto;
+}
+
+.texto-copiado {
+    align-self: center;
+    flex: 0 1 auto;
+    margin-top: auto;
+    visibility: hidden;
+}
+
+.area-desencriptada button {
+    align-self: self-end;
+    background-color: transparent;
+}
+
+
+

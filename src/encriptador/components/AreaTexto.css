@@ -1,0 +1,61 @@
+/**** AreaTexto.jsx ****/
+
+@media (min-width: 992px) { 
+    .input-texto, .condicion, .botones {
+      margin-left: var(--margin-left-value);
+    }
+  
+    .encriptar{
+      padding-left: 0;
+    }
+  
+    .desencriptar{
+      padding-right: 0;
+    }
+  }
+  
+  .texto{
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 8%;
+    resize: none;
+    width: 100%;
+  }
+  
+  .texto::placeholder{
+    color: var(--text-color);
+  }
+  
+  .texto:focus, .texto:active {
+    border: none;
+    outline: none;
+  }
+  
+  .condicion {
+    font-size: 0.75em;
+  }
+
+  .btn-primary, .btn-light {
+    border: 1px solid var(--text-color);
+    border-radius: 24px;
+    gap: 8%;
+    height: 67px;
+  }
+  
+  .btn-primary {
+    background-color: var(--text-color);
+  }
+  
+  .btn-light {
+    background-color: var(--btn-desencriptar-bg);
+    color: var(--text-color);
+  }
+
+  .btn-primary:hover, .btn-light:hover {
+    box-shadow: 0 4px 15px rgba(49, 138, 172, 1);
+    transition: all 0.3s ease;
+  }
+

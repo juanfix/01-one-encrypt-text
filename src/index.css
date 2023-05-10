@@ -1,0 +1,16 @@
+:root {
+  --background-color: #F3F5FC;
+  --text-color: #0A3871; 
+  --text-resultado: #343A40;
+  --text-muted: #495057;
+  --btn-desencriptar-bg: #D8DFE8;
+
+  --margin-left-value: 5%;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+}
+

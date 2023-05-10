@@ -1,0 +1,24 @@
+/**** MensajeEncriptado.jsx ****/
+
+@media (max-width: 991.99px) { 
+    .img-fluid{
+        display: none;
+    }
+
+    .mensaje-encriptado {
+        margin-top: 3%;
+        padding: 1%;
+        width: 100%;
+    }
+}
+
+.area-encriptada {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.area-encriptada h3{
+    color: var(--text-resultado);
+    font-weight: 700;
+}
