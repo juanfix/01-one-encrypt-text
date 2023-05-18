@@ -40,6 +40,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 ## Stack
 
 - React 18.2.0
+- CSS3
 - Javascript ES6
 
 ## Solución
