@@ -19,7 +19,7 @@ export const Footer = () => {
           href="https://github.com/juanfix"
           className="ms-1"
         >
-          <i class="fa-brands fa-square-github fa-xl"></i>
+          <i className="fa-brands fa-square-github fa-xl"></i>
         </a>
       </div>
     </footer>
