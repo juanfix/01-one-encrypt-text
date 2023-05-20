@@ -12,7 +12,7 @@ export const AreaResultado = () => {
   useEffect(() => {}, [accionEjecutada]);
 
   return (
-    <section className="area-resultado">
+    <section className="area-resultado" tabIndex="0">
       {!accionEjecutada || textoResultado === '' ? (
         <MensajeEncriptado />
       ) : (

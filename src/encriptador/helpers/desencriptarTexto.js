@@ -2,7 +2,7 @@ import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
 
 export const onDesencriptarTexto = (e, valor) => {
-  document.querySelector('.texto').focus();
+  document.querySelector('.area-resultado').focus();
   if (valor.length === 0) {
     Swal.fire(
       'Ningún mensaje fue encontrado',
