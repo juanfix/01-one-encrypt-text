@@ -20,7 +20,7 @@ export const MensajeDesencriptado = () => {
         <span className="text-muted">&nbsp; Texto copiado.</span>
       </div>
       <button
-        className="btn btn-light btn-lg btn-block w-100 my-3 mb-0"
+        className="btn btn-light w-100 my-3 mb-0"
         onClick={(e) => onCopiarTexto(e, textoResultado)}
       >
         Copiar

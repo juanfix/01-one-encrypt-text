@@ -42,7 +42,7 @@ export const AreaTexto = ({ onEncriptarTexto, onDesencriptarTexto }) => {
         <div className="encriptar col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <button
             type="button"
-            className="btn btn-primary btn-lg w-100 my-3"
+            className="btn btn-primary w-100 my-3"
             onClick={(e) => {
               setEncriptador({
                 texto: '',
@@ -57,7 +57,7 @@ export const AreaTexto = ({ onEncriptarTexto, onDesencriptarTexto }) => {
         <div className="desencriptar col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <button
             type="button"
-            className="btn btn-light btn-lg w-100 my-3"
+            className="btn btn-light w-100 my-3"
             onClick={(e) => {
               setEncriptador({
                 texto: '',
