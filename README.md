@@ -49,6 +49,10 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 Puedes ver el funcionamiento del proyecto en [Netlify](https://one-encrypt-text.netlify.app/)
 
-## Licencia
+## Servidor de desarrollo
 
-MIT
+1. Clonar el repositorio.
+2. Ejecutar el comando `yarn` en la ruta del proyecto para instalar las dependencias.
+3. Ejecutar el comando `yarn dev` para iniciar el servidor de desarrollo.
+4. Navegar a la página `http://localhost:5173/`.
+5. La aplicación cargará automáticamente cada que realice cambios en los archivos.
